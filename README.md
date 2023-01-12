@@ -1,1 +1,1 @@
-# Java Script array
+# Java Script project
