@@ -7,14 +7,16 @@
 </head>
 <body>
 <script>
+   
 let menu = prompt("Calculator: 1) addition, 2) minus, 3)multiplication, 4) division")
+
 function calc1(a, b) {
 if (menu == 1){
 let s1 = prompt("a");
 let s2 = prompt("b");
 let sum = +s1 + +s2;
 alert(sum);
-}
+} 
 }
 function calc2(a, b) {
 if (menu ==2){
@@ -37,13 +39,20 @@ if (menu == 4){
 let s1 = prompt("a");
 let s2 = prompt("b");
 let div = s1 / s2;
-alert(div);
+alert(div); 
+}
+
+else  {
+let cancel = prompt('Press stop');
+alert(" Finish ");
 }
 }
+
 calc1()
 calc2()
 calc3()
-calc4()
+calc4() 
+ 
 
 </script>
 </body>
