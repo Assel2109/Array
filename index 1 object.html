@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+<title>JavaScript</title> 
+</head>
+<body>
+<script>
+   
+const sapsanStudent = {
+name: 'Saule',
+surname: 'Nazarbayeva',
+};
+
+sapsanStudent.name = "Akmaral";
+
+delete sapsanStudent.name;
+
+console.log(sapsanStudent.surname);
+
+
+function isEmpty(sapsanStudent) {
+       if (typeof sapsanStudent === 'object') {
+            return true;
+        } else {
+            return false;
+        }
+         
+}
+isEmpty(sapsanStudent);
+
+</script>
+</body>
+</html>
