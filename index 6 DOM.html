@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+<title>JavaScript</title> 
+</head>
+<body>
+    <p id="text" style="color: blue;">Text</p>
+    <button onclick="changeColor(text)">Кнопка</button>
+<script>
+const col = document.getElementById('text').style.color;
+const changeColor = e => e.style.color = e.style.color === col ? 'red' : col;
+
+</script>
+</body>
+</html>
